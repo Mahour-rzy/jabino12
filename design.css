@@ -5,10 +5,18 @@
 }
 body {
     font-family: 'Vazir',sans-serif;
-    background-color: #f8f9fa; 
     margin: 0;
     padding: 0;
     padding-top: 70px;
+    height: 100%;
+  }
+  /*بکگراند صفحه اصلی*/
+  .main-background {
+    background-image: url('iran-bg.png'); /* اینجا نام فایل تصویرت رو بذار */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
   }
   
   a {
